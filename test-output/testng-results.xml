@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-26T18:21:10 PST" name="Suite" finished-at="2024-12-26T18:22:24 PST" duration-ms="74203">
+    <groups>
+    </groups>
+    <test started-at="2024-12-26T18:21:10 PST" name="Test" finished-at="2024-12-26T18:22:24 PST" duration-ms="74203">
+      <class name="com.qc.testng.test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:19:55 PST" name="setup" finished-at="2024-12-26T18:20:49 PST" duration-ms="54401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="locateElement()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:21:53 PST" name="locateElement" finished-at="2024-12-26T18:21:54 PST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateElement -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:21:54 PST" name="doLogin" data-provider="loginData" finished-at="2024-12-26T18:21:55 PST" duration-ms="1661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Both are empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:21:55 PST" name="doAssert" finished-at="2024-12-26T18:21:58 PST" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="locateElement()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:21:58 PST" name="locateElement" finished-at="2024-12-26T18:21:59 PST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateElement -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:21:59 PST" name="doLogin" data-provider="loginData" finished-at="2024-12-26T18:22:01 PST" duration-ms="2542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:01 PST" name="doAssert" finished-at="2024-12-26T18:22:03 PST" duration-ms="2036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="locateElement()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:03 PST" name="locateElement" finished-at="2024-12-26T18:22:04 PST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateElement -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:04 PST" name="doLogin" data-provider="loginData" finished-at="2024-12-26T18:22:05 PST" duration-ms="1353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:05 PST" name="doAssert" finished-at="2024-12-26T18:22:07 PST" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="locateElement()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:07 PST" name="locateElement" finished-at="2024-12-26T18:22:07 PST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateElement -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:07 PST" name="doLogin" data-provider="loginData" finished-at="2024-12-26T18:22:08 PST" duration-ms="792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email is invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:08 PST" name="doAssert" finished-at="2024-12-26T18:22:10 PST" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="locateElement()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:10 PST" name="locateElement" finished-at="2024-12-26T18:22:11 PST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateElement -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:11 PST" name="doLogin" data-provider="loginData" finished-at="2024-12-26T18:22:12 PST" duration-ms="1307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password is invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:12 PST" name="doAssert" finished-at="2024-12-26T18:22:14 PST" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="locateElement()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:14 PST" name="locateElement" finished-at="2024-12-26T18:22:15 PST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateElement -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:15 PST" name="doLogin" data-provider="loginData" finished-at="2024-12-26T18:22:17 PST" duration-ms="1947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Both are invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:17 PST" name="doAssert" finished-at="2024-12-26T18:22:19 PST" duration-ms="2034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="locateElement()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:19 PST" name="locateElement" finished-at="2024-12-26T18:22:20 PST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateElement -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:20 PST" name="doLogin" data-provider="loginData" finished-at="2024-12-26T18:22:22 PST" duration-ms="2228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Both are valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:22 PST" name="doAssert" finished-at="2024-12-26T18:22:24 PST" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qc.testng.test.LoginTest@16a0ee18]" started-at="2024-12-26T18:22:30 PST" name="tearDown" finished-at="2024-12-26T18:22:42 PST" duration-ms="12099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qc.testng.test.LoginTest -->
+      <class name="com.qc.testng.test.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:20:49 PST" name="setup" finished-at="2024-12-26T18:21:10 PST" duration-ms="20406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="LocateRegisterElement()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:16 PST" name="LocateRegisterElement" finished-at="2024-12-26T18:21:22 PST" duration-ms="6242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocateRegisterElement -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:22 PST" name="doRegister" data-provider="registerData" finished-at="2024-12-26T18:21:24 PST" duration-ms="2085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All are empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertion()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:24 PST" name="doAssertion" finished-at="2024-12-26T18:21:25 PST" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertion -->
+        <test-method is-config="true" signature="LocateRegisterElement()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:25 PST" name="LocateRegisterElement" finished-at="2024-12-26T18:21:26 PST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocateRegisterElement -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:26 PST" name="doRegister" data-provider="registerData" finished-at="2024-12-26T18:21:29 PST" duration-ms="2673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queue@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertion()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:29 PST" name="doAssertion" finished-at="2024-12-26T18:21:30 PST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertion -->
+        <test-method is-config="true" signature="LocateRegisterElement()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:30 PST" name="LocateRegisterElement" finished-at="2024-12-26T18:21:33 PST" duration-ms="2437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocateRegisterElement -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:33 PST" name="doRegister" data-provider="registerData" finished-at="2024-12-26T18:21:34 PST" duration-ms="1788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queue@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertion()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:34 PST" name="doAssertion" finished-at="2024-12-26T18:21:35 PST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertion -->
+        <test-method is-config="true" signature="LocateRegisterElement()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:35 PST" name="LocateRegisterElement" finished-at="2024-12-26T18:21:36 PST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocateRegisterElement -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:36 PST" name="doRegister" data-provider="registerData" finished-at="2024-12-26T18:21:40 PST" duration-ms="3865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Email is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertion()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:40 PST" name="doAssertion" finished-at="2024-12-26T18:21:41 PST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertion -->
+        <test-method is-config="true" signature="LocateRegisterElement()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:41 PST" name="LocateRegisterElement" finished-at="2024-12-26T18:21:42 PST" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocateRegisterElement -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:42 PST" name="doRegister" data-provider="registerData" finished-at="2024-12-26T18:21:46 PST" duration-ms="3378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queeu@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertion()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:46 PST" name="doAssertion" finished-at="2024-12-26T18:21:47 PST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertion -->
+        <test-method is-config="true" signature="LocateRegisterElement()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:47 PST" name="LocateRegisterElement" finished-at="2024-12-26T18:21:48 PST" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocateRegisterElement -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:48 PST" name="doRegister" data-provider="registerData" finished-at="2024-12-26T18:21:51 PST" duration-ms="2987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All are valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9145254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertion()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:21:51 PST" name="doAssertion" finished-at="2024-12-26T18:21:53 PST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qc.testng.test.RegisterTest@57d7f8ca]" started-at="2024-12-26T18:22:42 PST" name="tearDown" finished-at="2024-12-26T18:22:44 PST" duration-ms="2273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qc.testng.test.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
